@@ -1,0 +1,31 @@
+Steps:
+
+git init
+git add <>
+git commit -m "sample"
+git push origin main (Remote branch)
+git pull origin main (Remote branch)
+
+//command to add and commit in a single line
+
+git commit -am "Message"
+
+//files will be traced after git add <filename> command
+
+//command to unstage 
+git reset Head <file>
+
+//command to revert the local file changes fron git
+git checkout -- <file>
+
+//rename file 
+git mv <file> <new filename>
+
+//command to move to the staging area of a moved/renamed files
+git add -A
+
+//command to delete file (already tracked)
+git rm <file>
+
+//by default gitignore file is not available in the systems.
+cat .gitignore
